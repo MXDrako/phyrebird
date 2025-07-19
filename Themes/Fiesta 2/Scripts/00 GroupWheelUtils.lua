@@ -48,9 +48,9 @@ ChannelsToScale = {
 
 local ChannelsSounds = {
 	["04-SKILLUP ZONE"] = 	"08_SKILL_UP_ZONE.MP3";
-	--["05-JUMP"] = 			"07_JUMP.ogg";
-	--["06-PRO~PRO2"] = 		"06_PRO.ogg";
-	--["07-INFINITY"] = 		"07_INFINITY.ogg";
+	["05 - JUMP"] = 			"05_JUMP.mp3";
+	["07 - PRO~PRO2"] = 		"07_PRO.mp3";
+	["11 - INFINITY"] = 		"11_INFINITY.mp3";
 	["01 - 1ST~3RD"] = 		"11_1ST_TO_3RD.MP3";
 	["02 - S.E.~EXTRA"] = 	"12_SE_TO_EXTRA.MP3";
 	["03 - REBIRTH~PREX 3"] = "13_REBIRTH_TO_PREX3.MP3";
