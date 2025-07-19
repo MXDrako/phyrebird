@@ -149,6 +149,7 @@ ChannelsGraphics = {
 	["05 - NX~NX2"] = 		"C_LOGO5.PNG";
 	["06 - NX ABSOLUTE"] = 	"C_NXA.PNG";
 	["07 - PRO~PRO2"] = 	"C_PRO.PNG";
+	["05 - JUMP"]     = 	"C_JUMP.PNG";
 	["08 - FIESTA"] = 		"C_FIESTA.PNG";
 	["09 - FIESTA EX"] = 	"C_FIESTAEX.PNG";
 	["10 - FIESTA 2"] = 	"C_FIESTA2.PNG";
@@ -319,8 +320,8 @@ local Renames = {
 	
 	
 	["04-SKILLUP ZONE"] = 	"SKILL UP ZONE";
-	["05-JUMP"] = 			"JUMP";
-	["06-PRO~PRO2"] = 		"PRO/PRO2";
+	["05 - JUMP"] = 			"JUMP";
+	["06 - PRO~PRO2"] = 		"PRO/PRO2";
 	["01 - 1ST~3RD"] = 		"1ST~3RD";
 	["08-1ST~PERF"] =		"1ST~PERF.";
 	["09-EXTRA~PREX3"] = 	"EXTRA~PREX3";
