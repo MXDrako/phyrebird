@@ -183,18 +183,11 @@ a[#a+1] = Def.Sprite {
 	BeginCommand = function(self)
 		(cmd(stoptweening;diffusealpha,0;zbuffer,true))(self);
 		local gname = AllGroups[i];
-		--self:scaletoclipped(340,340);
-		self:scaletoclipped(226,226);
+		self:scaletoclipped(340,340);
 		local dir = ChannelsGraphics[gname];
 		local scale = ChannelsToScale[gname];
 		if( dir ~= nil or scale ~= nil ) then
 			self:scaletoclipped(340,340);
-			
-			--if string.find( dir, "C_LV_" ) then
-				--self:scaletoclipped(460,460);
-			--elseif gname == "SO_JMUSIC" then
-			--	self:scaletoclipped(350,350);
-			--end;
 			if dir ~= nil then
 				self:Load(THEME:GetPathG("","/ChannelsGraphics/"..dir));
 				return;
@@ -287,9 +280,9 @@ t[#t+1] = LoadFont("_myriad pro yellow")..{
 		
 		if( desc == nil ) then 
 			if lang == "es" then
-				self:settext("En este canal, puedes jugar canciones del\npack personalizado '"..string.upper(RenameGroup(gname)).."'.");
+				self:settext("En este canal, puedes jugar canciones\ndel paquete '"..(RenameGroup(gname)).."'");
 			else
-				self:settext("In this channel, you can play songs of\nthe custom pack '"..string.upper(RenameGroup(gname)).."'.");
+				self:settext("In this channel, you can play songs\nfrom the pack '"..(RenameGroup(gname)).."'");
 			end;
 		else
 			self:settext( desc );
